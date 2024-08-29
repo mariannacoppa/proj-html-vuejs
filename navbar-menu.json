@@ -1,0 +1,30 @@
+[
+    {
+        "navItem": "HOME",
+        "caret": ""
+    },
+    {
+        "navItem": "BLOG",
+        "caret": ""
+    },
+    {
+        "navItem": "PAGES",
+        "caret": "v"
+    },
+    {
+        "navItem": "ABOUT",
+        "caret": ""
+    },
+    {
+        "navItem": "CONTACTS",
+        "caret": ""
+    },
+    {
+        "navItem": "GALLERY",
+        "caret": ""
+    },
+    {
+        "navItem": "SHOP",
+        "caret": "v"
+    }
+]
