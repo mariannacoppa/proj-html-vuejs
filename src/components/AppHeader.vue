@@ -29,7 +29,10 @@ export default {
                             <i class="bi bi-chevron-down"></i> -->
                         </div>
                     </div>
-                    <div class="icons">social</div>
+                    <div class="icons">social
+                        <i class="fas fa-phone"></i>
+                        <i class="fas fa-facebook"></i>
+                    </div>
                 </div>
             </div>
         </div>
