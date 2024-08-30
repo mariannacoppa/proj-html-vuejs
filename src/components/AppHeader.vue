@@ -1,21 +1,38 @@
 <script>
+import NavMenuItems from '../../navMenuItems.json';
+import NavMenuItem from './NavMenuItem.vue';
 export default {
+    components: {
+        NavMenuItem
+    },
     data () {
         return {
-            
+            navobjs: NavMenuItems
         }
     }
 }
 </script>
 <template>
-    <header>
-        <div class="nav-menu">
-            <div class="nav-item">
-                <div class="caret">&#xF282;</div>
-                <i class="bi bi-chevron-down"></i>
+    <header class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="navbar d-flex justify-content-between">
+                    <div class="logo">logo</div>
+                    <div class="nav-menu">
+                        <div class="nav-items">
+                            <ul class="d-flex list-unstyled">
+                                <NavMenuItem class="navItem" v-for="(navobj, index) in navobjs" :navItem="navobj.navItem" :caret="navobj.caret"/>
+                                <!-- <li class="mx-1">icona 1</li>
+                                <li class="mx-1">icona 2</li> -->
+                            </ul>
+                            <!-- <div class="caret">&#xF282;</div>
+                            <i class="bi bi-chevron-down"></i> -->
+                        </div>
+                    </div>
+                    <div class="icons">social</div>
+                </div>
             </div>
         </div>
-        ciao
     </header>
 </template>
 <style lang="scss" scoped>

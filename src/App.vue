@@ -14,7 +14,6 @@ export default {
   <div>
     <AppHeader />
     <AppMain />
-    <!-- <AppMain mainTitle="Current Series" /> -->
     <AppFooter />
   </div>
   <!-- <h1>Getting Started with Vue.js and Font Awesome</h1>
