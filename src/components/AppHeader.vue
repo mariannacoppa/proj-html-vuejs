@@ -17,13 +17,13 @@ export default {
         <div class="row">
             <div class="col-12">
                 <div class="navbar d-flex justify-content-between">
-                    <div class="logo">logo</div>
+                    <div class="logo">
+                        <img src="../../assets/logo.svg" alt="">
+                    </div>
                     <div class="nav-menu">
                         <div class="nav-items">
                             <ul class="d-flex list-unstyled">
-                                <NavMenuItem class="navItem" v-for="(navobj, index) in navobjs" :navItem="navobj.navItem" :caret="navobj.caret"/>
-                                <!-- <li class="mx-1">icona 1</li>
-                                <li class="mx-1">icona 2</li> -->
+                                <NavMenuItem class="navItem pt-3" v-for="(navobj, index) in navobjs" :navItem="navobj.navItem" :caret="navobj.caret"/>
                             </ul>
                             <!-- <div class="caret">&#xF282;</div>
                             <i class="bi bi-chevron-down"></i> -->
@@ -31,7 +31,6 @@ export default {
                     </div>
                     <div class="icons">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <!-- <span><hr class="text-white"></span> -->
                         <i class="ms-1 fa-brands fa-facebook-f"></i>
                         <i class="ms-1 fa-brands fa-twitter"></i>
                         <i class="ms-1 fa-brands fa-youtube"></i>
@@ -50,5 +49,9 @@ export default {
     .fa-magnifying-glass {
         border-right: 2px solid lightgray;
         margin-right: 10px;
+    }
+    img {
+        width: 100px;
+        height: 40px;
     }
 </style>

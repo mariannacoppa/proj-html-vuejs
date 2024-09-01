@@ -7,9 +7,11 @@ export default {
 </script>
 <template>
     <div>
-        <li class="link py-1">{{ link }}</li>
+        <li class="footer-link py-1">{{ link }}</li>
     </div>
 </template>
 <style lang="scss" scoped>
-    
+.footer-link:hover {
+    color: white;
+}
 </style>

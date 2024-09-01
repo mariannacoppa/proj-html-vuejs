@@ -15,5 +15,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-    
+    .nav-item:hover:nth-child(3) {
+        color: red;
+    }
 </style>

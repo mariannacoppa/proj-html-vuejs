@@ -14,6 +14,8 @@ export default {
         </li>
     </div>
 </template>
-<style lang="">
-    
+<style lang="scss" scoped>
+    .info-item:hover {
+        color: white;
+    }
 </style>
