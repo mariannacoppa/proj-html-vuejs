@@ -29,9 +29,14 @@ export default {
                             <i class="bi bi-chevron-down"></i> -->
                         </div>
                     </div>
-                    <div class="icons">social
-                        <i class="fas fa-phone"></i>
-                        <i class="fas fa-facebook"></i>
+                    <div class="icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <!-- <span><hr class="text-white"></span> -->
+                        <i class="ms-1 fa-brands fa-facebook-f"></i>
+                        <i class="ms-1 fa-brands fa-twitter"></i>
+                        <i class="ms-1 fa-brands fa-youtube"></i>
+                        <i class="ms-1 fa-brands fa-instagram"></i>
+
                     </div>
                 </div>
             </div>
@@ -40,9 +45,10 @@ export default {
 </template>
 <style lang="scss" scoped>
     i, .caret {
-        background-color: black;
-        color: white;
-        padding: 10px;
         width: 30px;
+    };
+    .fa-magnifying-glass {
+        border-right: 2px solid lightgray;
+        margin-right: 10px;
     }
 </style>

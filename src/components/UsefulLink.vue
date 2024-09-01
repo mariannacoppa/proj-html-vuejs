@@ -10,8 +10,6 @@ export default {
         <li class="link py-1">{{ link }}</li>
     </div>
 </template>
-<style lang="scss">
-    li:hover {
-        color: white;
-    }
+<style lang="scss" scoped>
+    
 </style>
