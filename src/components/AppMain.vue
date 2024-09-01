@@ -267,6 +267,50 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="parallax-3 p-5 d-flex justify-content-around">
+                        <img src="../../assets/03.png" alt="">
+                        <img src="../../assets/04.png" alt="">
+                        <img src="../../assets/05.png" alt="">
+                        <img src="../../assets/01.png" alt="">
+                        <img src="../../assets/02.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 p-3">
+                    <h6>COLLABORATE</h6>
+                    <h3>WANT TO WORK WITH US?
+                        LEAVE US A MESSAGE!
+                    </h3>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fuga itaque ex voluptatem delectus illo quidem maxime nemo laborum illum tempore incidunt inventore aperiam doloremque facilis, eligendi blanditiis voluptates fugit.</p>
+                </div>
+                <div class="col-6 p-3">
+                    <div class="row">
+                        <span class="col-6">
+                            <input type="text"class="form-control mb-2" id="exampleFormControlInput1" placeholder="Your Name">
+                        </span>
+                        <span class="col-6">
+                            <input type="email"class="form-control mb-2" id="exampleFormControlInput2" placeholder="Your Email">
+                        </span>
+                        <span class="col-6">
+                            <input type="tel"class="form-control mb-2" id="exampleFormControlInput3" placeholder="Mobile Number">
+                        </span>
+                        <span class="col-6">
+                            <input type="password"class="form-control mb-2" id="exampleFormControlInput4" placeholder="Your Pincode">
+                        </span>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Your message"></textarea>
+                    </div>
+                    <button class="btn btn-dark w-100">SUBMIT NOW</button>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 <style lang="scss" scoped>
@@ -303,6 +347,12 @@ export default {
         }
         h5 {
             font-size: 16px;
+        }
+    }
+    .parallax-3 {
+        background-image: url('../../assets/Parallax-03.jpg');
+        img {
+            width: 100px;
         }
     }
 </style>
