@@ -2,6 +2,12 @@
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
 import AppFooter from './components/AppFooter.vue'
+// Fix dropdown submenu positioning
+$('.dropdown-submenu .dropdown-menu').hover(function () {
+$(this).parent().addClass('show');
+}, function () {
+$(this).parent().removeClass('show');
+});
 export default {
   components: {
     AppHeader,

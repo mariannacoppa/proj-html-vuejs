@@ -9,7 +9,7 @@ export default {
             <div class="row">
                 <div class="col-1">
                     <div class="d-flex align-content-center mt-5">
-                        <i class="fa-solid fa-chevron-left bg-body-secondary p-3"></i>
+                         <img src="../../assets/left-arrow.svg" alt="">
                     </div>
                 </div>
                 <div class="col-10">
@@ -22,7 +22,7 @@ export default {
                 </div>
                 <div class="col-1">
                     <div class="d-flex align-content-center mt-5">
-                        <i class="fa-solid fa-chevron-righ bg-body-secondary p-3t"></i>
+                        <img src="../../assets/right-arrow.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -314,9 +314,11 @@ export default {
     </main>
 </template>
 <style lang="scss" scoped>
-    img {
-        width: 100%;
-        visibility: visible;
+    .col-1 img {
+        width: 30px;
+        height: 30px;
+        color: black;
+        background-color: lightgray;
     }
     .about-us {
         background-image: url('../../assets/About-Us.jpg');
