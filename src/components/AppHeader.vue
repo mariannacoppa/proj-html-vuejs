@@ -54,7 +54,5 @@ export default {
     .fa-chevron-down {
         display: inline-block;
     }
-    * {
-        font-size: 12px;
-    }
+
 </style>

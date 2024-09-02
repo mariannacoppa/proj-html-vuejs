@@ -9,7 +9,7 @@
     },
     {
         "navItem": "PAGES",
-        "class": "fa-solid fa-chevron-down"
+        "class": "fa-solid fa-chevron-down fa-2xs pt-4"
     },
     {
         "navItem": "ABOUT",
@@ -25,6 +25,6 @@
     },
     {
         "navItem": "SHOP",
-        "class": "fa-solid fa-chevron-down"
+        "class": "fa-solid fa-chevron-down fa-2xs pt-4"
     }
 ]
