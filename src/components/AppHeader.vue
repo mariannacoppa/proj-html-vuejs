@@ -23,19 +23,16 @@ export default {
                     <div class="nav-menu">
                         <div class="nav-items">
                             <ul class="d-flex list-unstyled">
-                                <NavMenuItem class="navItem pt-3" v-for="(navobj, index) in navobjs" :navItem="navobj.navItem" :caret="navobj.caret"/>
+                                <NavMenuItem class="navItem pt-3" v-for="(navobj, index) in navobjs" :caret="navobj.class" :navItem="navobj.navItem"/>
                             </ul>
-                            <!-- <div class="caret">&#xF282;</div>
-                            <i class="bi bi-chevron-down"></i> -->
                         </div>
                     </div>
                     <div class="icons">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="ms-1 fa-brands fa-facebook-f"></i>
-                        <i class="ms-1 fa-brands fa-twitter"></i>
-                        <i class="ms-1 fa-brands fa-youtube"></i>
-                        <i class="ms-1 fa-brands fa-instagram"></i>
-
+                        <i class="fa-solid fa-magnifying-glass"/>
+                        <i class="ms-1 fa-brands fa-facebook-f"/>
+                        <i class="ms-1 fa-brands fa-twitter"/>
+                        <i class="ms-1 fa-brands fa-youtube"/>
+                        <i class="ms-1 fa-brands fa-instagram"/>
                     </div>
                 </div>
             </div>
@@ -53,5 +50,11 @@ export default {
     img {
         width: 100px;
         height: 40px;
+    }
+    .fa-chevron-down {
+        display: inline-block;
+    }
+    * {
+        font-size: 12px;
     }
 </style>
