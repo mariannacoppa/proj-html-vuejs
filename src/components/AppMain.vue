@@ -405,4 +405,7 @@ export default {
             width: 100px;
         }
     }
+    .content-form input, textarea{
+        background-color: #F2F2F2;
+    }
 </style>

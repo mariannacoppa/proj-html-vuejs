@@ -1,14 +1,14 @@
 [
     {
-        "class": "fa-solid fa-location-dot",
+        "class": "me-2 fa-solid fa-location-dot",
         "info": "2/45 Tower Street, New York USA"
     },
     {
-        "class": "fa-solid fa-phone",
+        "class": "me-2 fa-solid fa-phone",
         "info": "Call Us On 0800 840 1010"
     },
     {
-        "class": "fa-solid fa-envelope",
+        "class": "me-2 fa-solid fa-envelope",
         "info": "Demo@Example.Com"
     }
 ]
