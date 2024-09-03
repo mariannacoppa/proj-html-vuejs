@@ -1,13 +1,17 @@
 <script>
 import NavMenuItems from '../../navMenuItems.json';
+import NavIconItems from '../../navIconItems.json';
 import NavMenuItem from './NavMenuItem.vue';
+import NavIconItem from './NavIconItem.vue';
 export default {
     components: {
-        NavMenuItem
+        NavMenuItem,
+        NavIconItem
     },
     data () {
         return {
-            navobjs: NavMenuItems
+            navobjs: NavMenuItems,
+            iconObjs: NavIconItems
         }
     }
 }
@@ -27,12 +31,11 @@ export default {
                             </ul>
                         </div>
                     </div>
-                    <div class="icons">
+                    <div class="icons d-flex">
                         <i class="fa-solid fa-magnifying-glass"/>
-                        <i class="ms-1 fa-brands fa-facebook-f"/>
-                        <i class="ms-1 fa-brands fa-twitter"/>
-                        <i class="ms-1 fa-brands fa-youtube"/>
-                        <i class="ms-1 fa-brands fa-instagram"/>
+                        <span class="brands d-flex">
+                            <NavIconItem class="me-2" v-for="(iconObj, index) in iconObjs" :class="iconObj.class" />
+                        </span>
                     </div>
                 </div>
             </div>

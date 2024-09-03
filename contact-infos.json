@@ -1,14 +1,14 @@
 [
     {
-        "icon": "./assets/footer-location-dot-solid.svg",
+        "class": "fa-solid fa-location-dot",
         "info": "2/45 Tower Street, New York USA"
     },
     {
-        "icon": "./assets/footer-phone-solid.svg",
+        "class": "fa-solid fa-phone",
         "info": "Call Us On 0800 840 1010"
     },
     {
-        "icon": "./assets/footer-envelope-soli.svg",
+        "class": "fa-solid fa-envelope",
         "info": "Demo@Example.Com"
     }
 ]

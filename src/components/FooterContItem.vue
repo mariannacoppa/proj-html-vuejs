@@ -9,7 +9,7 @@ export default {
 <template>
     <div>
         <li class="info-item">
-            <span class="icon">{{ icon }}</span>
+            <i :class="icon"></i>
             <span class="text">{{ info }}</span>
         </li>
     </div>

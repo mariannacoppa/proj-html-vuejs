@@ -30,20 +30,7 @@ export default {
                             CONTACT INFO
                         </h4>
                         <ul class="list-unstyled">
-                            <li class="py-1">
-                                <span class="pe-2 text-white"><i class="fa-solid fa-location-dot"></i></span>
-                                <span>2/45 Tower Street, New York USA</span>
-                            </li>
-                            <li class="py-1">
-                                <span class="pe-2 text-white"><i class="fa-solid fa-phone"></i></span>
-                                <span>Call Us On 0800 840 1010</span>
-                            </li>
-                            <li class="py-1">
-                                <span class="pe-2 text-white"><i class="fa-solid fa-envelope"></i></span>
-                                <span>demo@example.com</span>
-                                
-                            </li>
-                            <!-- <FooterContItem v-for="(infoObj, index) in infoObjs" :icon="infoObj.icon" :info="infoObj.info" /> -->
+                            <FooterContItem v-for="(infoObj, index) in infoObjs" :icon="infoObj.class" :info="infoObj.info" />
                         </ul>
                     </div>  
                 </div>
@@ -72,19 +59,21 @@ export default {
                         <h4 class="footer-title text-white">
                             NEWSLETTER
                         </h4>
-                        <p>Subscribe to receive Inspiration, Ideas & News in Your Inbox.</p>
+                        <p class="mb-2">Subscribe to receive Inspiration, Ideas & News in Your Inbox.</p>
                         <input type="text" placeholder="Enter Your Email"><br>
                         <button class="btn btn-light mt-3">SUBSCRIBE</button>
                     </div>
                 </div>
             </div>
             <hr>
-            <p class="text-center footer-bottom pb-4 pt-2"><i class="fa-regular fa-copyright"></i> 2023 All Rights Reserved. Developed by TemplateMela</p>
+            <div class="text-center footer-bottom pb-4 pt-2"><i class="fa-regular fa-copyright"></i> 2023 All Rights Reserved. Developed by TemplateMela</div>
         </footer>
     </div>
 </template>
 <style lang="scss" scoped>
-    ul, p {
+footer {
+    background-color: black;
+    ul, .text-center, p {
         color: rgb(179, 174, 174);
     }
     .footer-bottom, .news, .info, .useful, .contact {
@@ -97,4 +86,9 @@ export default {
         height: 2px;
         color: #f2f2f2;
     }
+    input {
+        background-color: #1D1C1B;
+        border: none;
+    }
+}
 </style>

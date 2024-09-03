@@ -8,7 +8,7 @@ export default {
 </script>
 <template>
     <div class="dropdown hovering-menu" v-if="caret">
-        <li class="nav-item mx-2 d-flex" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item mx-2 d-flex" aria-expanded="false">
             <div class="text pe-1 mt-3">{{ navItem }}</div>
             <i :class="caret">
                 <ul class="dropdown-menu">
@@ -28,6 +28,8 @@ export default {
 <style lang="scss" scoped>
     .hovering-menu:hover .dropdown-menu {
         display: block;
+        background-color: black;
+        cursor: pointer;
     }
     .dropdown-item {
         color: white;

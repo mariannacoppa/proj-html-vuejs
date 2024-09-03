@@ -121,42 +121,42 @@ export default {
                         <div class="col-4">
                             <div class="card text-center m-1">
                                 <img src="../../assets/Gallery-01.jpg" alt="">
-                                <div class="title">SEVENTEENTH SUMMER</div>
+                                <div class="title mt-2">SEVENTEENTH SUMMER</div>
                                 <p class="text-secondary">Commercial, Music VIdeo</p>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="card text-center m-1">
                                 <img src="../../assets/Gallery-02.jpg" alt="">
-                                <div class="title">A MESSAGE TO SPACE</div>
+                                <div class="title mt-2">A MESSAGE TO SPACE</div>
                                 <p class="text-secondary">Short Film</p>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="card text-center m-1">
                                 <img src="../../assets/Gallery-03.jpg" alt="">
-                                <div class="title">THE MOST BEAUTIFUL THING</div>
+                                <div class="title mt-2">THE MOST BEAUTIFUL THING</div>
                                 <p class="text-secondary">Music Video</p>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="card text-center m-1">
                                 <img src="../../assets/Gallery-04.jpg" alt="">
-                                <div class="title">PERMISSION TO SPEAK</div>
+                                <div class="title mt-2">PERMISSION TO SPEAK</div>
                                 <p class="text-secondary">Documentary</p>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="card text-center m-1">
                                 <img src="../../assets/Gallery-05.jpg" alt="">
-                                <div class="title">EXPLORE OUR SPACE</div>
+                                <div class="title mt-2">EXPLORE OUR SPACE</div>
                                 <p class="text-secondary">Film noir</p>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="card text-center m-1">
                                 <img src="../../assets/Gallery-06.jpg" alt="">
-                                <div class="title">FILM PRODUCTION</div>
+                                <div class="title mt-2">FILM PRODUCTION</div>
                                 <p class="text-secondary">Blaxploitation</p>
                             </div>
                         </div>
@@ -388,9 +388,6 @@ export default {
         }
     }
     .news {
-        img {
-
-        }
         p {
             font-size: 12px;
         }
