@@ -24,7 +24,7 @@ export default {
     <div class="bg-black">
         <footer class="container">
             <div class="row">
-                <div class="col-3 p-5">
+                <div class="col-3 py-5">
                     <div class="contact">
                         <h4 class="footer-title text-white">
                             CONTACT INFO
@@ -34,7 +34,7 @@ export default {
                         </ul>
                     </div>  
                 </div>
-                <div class="col-3 p-5">
+                <div class="col-3 py-5">
                     <div class="info">
                         <h4 class="footer-title text-white">
                             INFORMATION
@@ -44,7 +44,7 @@ export default {
                         </ul>
                     </div>              
                 </div>
-                <div class="col-3 p-5">
+                <div class="col-3 py-5">
                     <div class="useful">
                         <h4 class="footer-title text-white">
                             USEFUL LINKS
@@ -54,7 +54,7 @@ export default {
                         </ul>
                     </div>
                 </div>
-                <div class="col-3 p-5">
+                <div class="col-3 py-5">
                     <div class="news">
                         <h4 class="footer-title text-white">
                             NEWSLETTER
