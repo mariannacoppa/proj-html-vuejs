@@ -6,67 +6,53 @@ export default {
 <template>
     <main>
         <!-- JUMBOTRON -->
-        <div class="container-fluid jumbotron">
-            <div class="row">
-                <div class="col-12">
-                    <div class="content-jumbo">
-                        <div class="row">
-                            <!-- CAROUSEL -->
-                             <div class="col-12">
-                                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                                     <div class="carousel-indicators">
-                                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                     </div>
-                                     <div class="carousel-inner">
-                                       <div class="carousel-item active">
-                                         <img src="../../assets/wp7624749-cameraman-sunset.jpg" class="d-block w-100" alt="...">
-                                         <div class="carousel-caption d-none d-md-block text-start pb-5 mb-5">
-                                             <div class="jumbotron-text text-white">
-                                                <h6>CINEMATO STUDIOS</h6>
-                                                <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
-                                                <button class="btn btn-light">READ MORE</button>
-                                            </div>
-                                         </div>
-                                       </div>
-                                       <div class="carousel-item">
-                                         <img src="../../assets/jumbotron-background.jpg" class="d-block w-100" alt="...">
-                                         <div class="carousel-caption d-none d-md-block text-start pb-5 mb-5">
-                                            <div class="jumbotron-text text-white">
-                                               <h6>CINEMATO STUDIOS</h6>
-                                               <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
-                                               <button class="btn btn-light">READ MORE</button>
-                                           </div>
-                                        </div>
-                                       </div>
-                                       <div class="carousel-item">
-                                         <img src="../../assets/wp7624776-cameraman-night.jpg" class="d-block w-100" alt="...">
-                                         <div class="carousel-caption d-none d-md-block text-start pb-5 mb-5">
-                                            <div class="jumbotron-text text-white">
-                                               <h6>CINEMATO STUDIOS</h6>
-                                               <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
-                                               <button class="btn btn-light">READ MORE</button>
-                                           </div>
-                                        </div>
-                                       </div>
-                                     </div>
-                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                       <span class="visually-hidden">Previous</span>
-                                     </button>
-                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                       <span class="visually-hidden">Next</span>
-                                     </button>
-                                   </div>
-                             </div>
-                            <!-- END CAROUSEL -->
-                        </div>
-                    </div>
-                </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../../assets/wp7624749-cameraman-sunset.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start pb-5 mb-5">
+                    <div class="jumbotron-text text-white">
+                       <h6>CINEMATO STUDIOS</h6>
+                       <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
+                       <button class="btn btn-light">READ MORE</button>
+                   </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../assets/jumbotron-background.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start pb-5 mb-5">
+                   <div class="jumbotron-text text-white">
+                      <h6>CINEMATO STUDIOS</h6>
+                      <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
+                      <button class="btn btn-light">READ MORE</button>
+                  </div>
+               </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../assets/wp7624776-cameraman-night.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start pb-5 mb-5">
+                   <div class="jumbotron-text text-white">
+                      <h6>CINEMATO STUDIOS</h6>
+                      <h1>ACTION AND <br> INSPIRE PEOPLE</h1>
+                      <button class="btn btn-light">READ MORE</button>
+                  </div>
+               </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+       </div>
         <!-- "this is what we do" cards section -->
         <div class="container-cards">
             <div class="row">
@@ -371,23 +357,17 @@ export default {
     </main>
 </template>
 <style lang="scss" scoped>
-    .jumbotron {
-        .content-jumbo {
-            margin-top: 180px;
-            margin-bottom: 180px;
-            .jumbotron-text h1 {
-                font-size: 40px;
-            }
-            .carousel-item img {
-                height: 500px;
-            }
+        .jumbotron-text h1 {
+            font-size: 40px;
+        }
+        .carousel-item img {
+            height: 500px;
         }
         .arrow {
             width: 30px;
             height: 30px;
             background-color: rgba(24, 21, 21, 0.426);
         }
-    }
     .about-us-container {
         background-image: url('../../assets/About-Us.jpg');
         .content-text {
